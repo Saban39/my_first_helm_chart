@@ -3,7 +3,7 @@ entries:
   springboot:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-02-12T13:25:06.291849+01:00"
+    created: "2024-02-12T13:33:38.310502+01:00"
     dependencies:
     - alias: mysql-operator
       name: mysql
@@ -14,6 +14,6 @@ entries:
     name: springboot
     type: application
     urls:
-    - https://github.com/Saban39/my_first_helm_chart/springboot-0.1.0.tgz
+    - https://saban39.github.io/my_first_helm_chart/springboot-0.1.0.tgz
     version: 0.1.0
-generated: "2024-02-12T13:25:06.287259+01:00"
+generated: "2024-02-12T13:33:38.306576+01:00"
