@@ -2,8 +2,23 @@ apiVersion: v1
 entries:
   springboot:
   - apiVersion: v2
+    appVersion: v0.18.1
+    created: "2024-03-08T22:40:05.790411+01:00"
+    dependencies:
+    - alias: mysql-operator
+      name: mysql
+      repository: https://charts.bitnami.com/bitnami
+      version: 9.12.0
+    description: A Helm chart for Kubernetes
+    digest: fab425c8eb4f0f1684322709668ef1fbe6a1ff5a564065c6f4bdb9715d88e11d
+    name: springboot
+    type: application
+    urls:
+    - https://saban39.github.io/my_first_helm_chart/springboot-0.18.1.tgz
+    version: 0.18.1
+  - apiVersion: v2
     appVersion: v0.16.1
-    created: "2024-03-07T23:38:41.183251+01:00"
+    created: "2024-03-08T22:40:05.768048+01:00"
     dependencies:
     - alias: mysql-operator
       name: mysql
@@ -18,7 +33,7 @@ entries:
     version: 0.16.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-03-07T23:38:41.178445+01:00"
+    created: "2024-03-08T22:40:05.764387+01:00"
     dependencies:
     - alias: mysql-operator
       name: mysql
@@ -33,7 +48,7 @@ entries:
     version: 0.1.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-03-07T23:38:41.18882+01:00"
+    created: "2024-03-08T22:40:05.794297+01:00"
     dependencies:
     - alias: mysql-operator
       name: mysql
@@ -46,4 +61,4 @@ entries:
     urls:
     - https://saban39.github.io/my_first_helm_chart/tmp/springboot-0.1.0.tgz
     version: 0.1.0
-generated: "2024-03-07T23:38:41.172189+01:00"
+generated: "2024-03-08T22:40:05.760418+01:00"
